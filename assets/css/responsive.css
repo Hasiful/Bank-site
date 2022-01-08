@@ -1,0 +1,35 @@
+@media(min-width: 540px){}
+@media(min-width: 768px){
+    .header_center_menu{
+        display: block;
+    }
+    .mobile_nav{
+        display: none;
+    }
+    .header_top {
+        display: block;
+    }
+    .header_center_logo {
+        max-width: 230px;
+    }
+    .header_center{
+       border: none;
+       box-shadow: none;
+    }
+}
+@media(min-width: 991px){
+    .header_nav {
+        display: block;
+    }
+    .bennar_left {
+        width: 49%;
+    }
+    .bennar_right {
+        width: 49%;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .bennar_wrapper {
+        flex-direction: row;
+    }
+}
