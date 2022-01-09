@@ -27,6 +27,9 @@
         margin-top: 0px;
         margin-bottom: 100px;
     }
+    .header_center{
+        height: 56px;
+    }
 }
 @media(min-width: 991px){
     .container{
