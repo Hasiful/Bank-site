@@ -150,7 +150,7 @@
 .header_nav_Wrapper ul li a{
     font-size: 12px;
     color: #333;
-    padding: 10px 12px;
+    padding: 10px 12px !important;
     display: inline-block;
 }
 /* ==================
@@ -257,7 +257,8 @@
     display: flex;
 }
 .bennar_left_subcontent:hover{
-    text-decoration: underline;
+    text-decoration: underline !important;
+    color: #333;
 }
 .bennar_left_subcontent span {
     color: #fc3;

@@ -1,10 +1,10 @@
 *{
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0px ;
+    padding: 0px ;
     box-sizing: border-box !important;
     list-style: none !important;
-    text-decoration: none !important;
-    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none ;
+    font-family: 'Poppins', sans-serif ;
 }
 p{
     margin-bottom: 0px !important;
@@ -149,6 +149,7 @@ ul{
     background-repeat: repeat-x;
     text-align: center;
     border-radius: 3px;
+    font-family: 'Poppins', sans-serif  !important;
 }
 .mobile_second_nav_language{}
 .mobile_second_nav_language ul{}
