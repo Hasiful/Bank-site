@@ -16,12 +16,10 @@
        border: none;
        box-shadow: none;
     }
-}
-@media(min-width: 991px){
-    .header_nav {
-        display: block;
+    .bennar_wrapper {
+        flex-direction: row;
     }
-    .bennar_left {
+      .bennar_left {
         width: 49%;
     }
     .bennar_right {
@@ -29,7 +27,18 @@
         margin-top: 0px;
         margin-bottom: 100px;
     }
-    .bennar_wrapper {
-        flex-direction: row;
+}
+@media(min-width: 991px){
+    .container{
+        padding: 0 25px;
+    }
+    .header_nav {
+        display: block;
+    }
+    .bennar_left_subcontent {
+        font-size: 15px;
+    }
+    .bennar_right, .bennar_left{
+        padding:20px;
     }
 }

@@ -10,7 +10,7 @@
     max-width: 1048px;
     width: 100%;
     margin: 0px auto;
-    padding: 0px 24px;
+    padding: 0px 15px;
 }
 .mobile_nav{
     display: block;
@@ -32,7 +32,10 @@
     background: #eee none repeat scroll 0 0;
     box-shadow: 10px 0px 10px 5px #000;
     z-index: 999;
-    display: none;
+    display: none ;
+}
+.mobile_nav_footer{
+    height: 104px;
 }
 .mobile_nav_header {
     background: #e5e5e5;
@@ -61,6 +64,8 @@
 }
 .mobile_nav_menu {
     background: #f4f4f4;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
 }
 .mobile_nav_menu ul{}
 .mobile_menu_wrapper{
